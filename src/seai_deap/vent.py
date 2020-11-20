@@ -2,9 +2,9 @@ import numpy as np
 
 
 def calculate_ventilation_heat_loss(
+    volume: np.array,
     ventilation_heat_loss_constant: float = 0.33,
     effective_air_rate_change: float = 0.5,
-    volume: np.array,
 ) -> np.array:
     """Calculate ventilation heat loss (DEAP 4.2.2 Vent!G34)
 
