@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "seai_deap"
-version = "0.1.2"
+version = "0.1.3"
 description = "A re-implementation of SEAI's DEAP 4.2.2 in Python"
 authors = ["Rowan Molony <rowan.molony@codema.ie>"]
 license = "MIT"
