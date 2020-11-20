@@ -1,3 +1,5 @@
+from typing import Optional
+
 import numpy as np
 
 
@@ -7,7 +9,7 @@ def calculate_thermal_bridging(
     floor_area: np.array,
     window_area: np.array,
     door_area: np.array,
-    thermal_bridging_factor: float = 0.05,
+    thermal_bridging_factor: Optional[float] = 0.05,
 ) -> np.array:
     """Calculate thermal bridging (DEAP 4.2.2 Fab!G22).
 
